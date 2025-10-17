@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>trouble.exe</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'VT323', monospace;
+      background-color: #0d0d0d;
+      color: #00ff41;
+    }
+    .blinking-cursor {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+    .scrollbar-thin::-webkit-scrollbar {
+        width: 8px;
+    }
+    .scrollbar-thin::-webkit-scrollbar-track {
+        background: #1a1a1a;
+    }
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+        background-color: #00ff41;
+        border-radius: 4px;
+        border: 2px solid #1a1a1a;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
+  }
+}
+</script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
