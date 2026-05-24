@@ -1,5 +1,6 @@
 {
   "name": "trouble.exe",
   "description": "An AI-powered assistant for FF gamers. Get pro tips and generate custom headshot configuration files to improve your gameplay.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
